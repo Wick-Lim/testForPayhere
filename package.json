@@ -1,27 +1,24 @@
 {
-  "name": "test",
-  "version": "0.1.0",
+  "name": "create-react-app",
+  "version": "5.0.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "latest",
+    "axios": "^0.27.2",
+    "notistack": "^2.0.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-query": "^3.16.0",
+    "react-scripts": "latest"
   },
   "browserslist": {
     "production": [
